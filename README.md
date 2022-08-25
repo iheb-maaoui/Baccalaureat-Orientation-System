@@ -43,12 +43,11 @@ k-fold cross validation
 
 The original sample is divided into k blocks, and then one of the k blocks is selected as the validation set while the other k-1 blocks represent the training set. 
 After learning, a validation performance can be calculated. 
-Then we repeat the operation by selecting another validation sample among the predefined blocks. At the end of the procedure we obtain k performance scores, one per block. The mean and standard deviation of the k performance scores can be computed to estimate the overall average bias and variance.
+Then the operation is repeated by selecting another validation sample among the predefined blocks. At the end of the procedure we obtain k performance scores, one per block. The mean and standard deviation of the k performance scores can be computed to estimate the overall average bias and variance.
 
 
 ### Web App Development
 
-To create the web interface of our project, we opted for the 
-Streamlit open source Python framework which is used for beautiful and powerful machine learning data applications.
+To create the web interface of our project, I used the Streamlit open source Python framework which is used to make for beautiful and powerful machine learning data applications.
 
 This interface consists of collecting the user's answers to the previously mentioned questions and according to which an academic post-bac field will be recommended along with its description with best universities in Tunisia in which the student can study it.
